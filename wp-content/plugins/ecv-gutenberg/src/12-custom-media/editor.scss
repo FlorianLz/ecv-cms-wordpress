@@ -1,0 +1,31 @@
+.ecv-custom-media-wrapper {
+	position: relative;
+}
+
+.ecv-custom-media-remove-image {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+
+	&:hover {
+		background: white;
+	}
+}
+.wp-block-ecv-gutenberg-custom-media{
+  position: relative;
+  .custom-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.5);
+	color: white;
+	cursor: pointer;
+	p{
+	  margin: 0;
+	  font-size: 16px;
+	  padding: 10px 20px;
+	}
+  }
+}

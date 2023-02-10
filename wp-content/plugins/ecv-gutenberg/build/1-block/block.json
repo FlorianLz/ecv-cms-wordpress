@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ecv-gutenberg/first-block",
+  "version": "0.1.0",
+  "title": "1. Premier bloc",
+  "category": "ecv",
+  "icon": "smiley",
+  "description": "Mon premier bloc.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ecv-gutenberg",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "keywords": [
+    "ecv",
+    "gutenberg",
+    "block"
+  ],
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "text",
+      "selector": ".content"
+    }
+  }
+}

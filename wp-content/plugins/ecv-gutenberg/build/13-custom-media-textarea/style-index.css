@@ -1,0 +1,26 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/13-custom-media-textarea/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ecv-gutenberg-custom-media-textarea {
+  position: relative;
+  display: flex;
+}
+.wp-block-ecv-gutenberg-custom-media-textarea[data-inversed=inversed] {
+  flex-direction: row-reverse;
+}
+.wp-block-ecv-gutenberg-custom-media-textarea .ecv-custom-media-wrapper {
+  width: 50%;
+}
+.wp-block-ecv-gutenberg-custom-media-textarea > img {
+  width: 50%;
+}
+.wp-block-ecv-gutenberg-custom-media-textarea .custom-textarea {
+  width: 50%;
+}
+.wp-block-ecv-gutenberg-custom-media-textarea .custom-textarea p {
+  margin: 0;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

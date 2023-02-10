@@ -1,0 +1,21 @@
+.wp-block-ecv-gutenberg-custom-media-textarea{
+  &[data-inversed="inversed"] {
+	flex-direction: row-reverse;
+  }
+  .ecv-custom-media-wrapper {
+	width: 50%;
+  }
+  position: relative;
+  display: flex;
+  >img{
+	width: 50%;
+  }
+  .custom-textarea{
+	width: 50%;
+	p{
+	  margin: 0;
+	  font-size: 16px;
+	  padding: 10px 20px;
+	}
+  }
+}

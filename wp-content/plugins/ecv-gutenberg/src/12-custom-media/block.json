@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ecv-gutenberg/custom-media",
+	"version": "1.0",
+	"title": "12. Import de média customisé",
+	"icon": "camera",
+	"category": "ecv",
+	"description": "Mon super bloc pour importer une image avec un texte par dessus.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"pictureID": {
+			"type": "number",
+			"default": null
+		},
+		"pictureURL": {
+			"type": "string",
+			"source": "attribute",
+			"attribute": "src",
+			"selector": "img"
+		},
+		"pictureAlt": {
+			"type": "string",
+			"source": "attribute",
+			"attribute": "alt",
+			"selector": "img"
+		},
+		"customText": {
+		  "type": "string",
+		  "source": "html",
+		  "selector": ".custom-text"
+		}
+	},
+	"textdomain": "ecv-gutenberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
